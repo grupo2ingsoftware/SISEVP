@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts PUBLIC
+    "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+    "http://struts.apache.org/dtds/struts-2.0.dtd">    
+    
+<struts>
+    <package name="cobro" namespace="/" extends="sistema">
+        <action name="cobro" class="com.sisevp.action.cobro.CobroAction">
+            <result name="success">/boleta.jsp</result>
+            <result name="error">/registro_ingreso.jsp</result>
+        </action>
+        
+        <action name="imprimir_boleta" >
+                <result name="success" type="redirectAction">iu_cobro</result>
+            <result name="error">/registro_ingreso.jsp</result>        
+        </action>
+         
+        <action name="busqueda_registro_ingreso" class="com.sisevp.action.cobro.CobroBusquedaAction">
+            <result name="success">/cobro.jsp</result>
+            <result name="error" type="redirectAction">iu_cobro</result>
+        </action>
+                       
+        <action name="iu_cobro" class="com.sisevp.action.cobro.IUCobroAction">
+            <result name="success">/cobro_busqueda.jsp</result>
+        </action>
+        <action name="iu_cobro_reporte" class="com.sisevp.action.cobro.IUCobroReporteAction">
+            <result name="success">/cobro_reporte.jsp</result>
+        </action>
+    </package>
+</struts>

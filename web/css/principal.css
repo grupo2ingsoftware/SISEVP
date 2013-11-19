@@ -1,0 +1,437 @@
+/* 
+    Document   : principal
+    Created on : 09/06/2013, 04:49:16 PM
+    Author     : laptop-w8
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+@media only screen and (max-width : 799px) {
+    #contenedorGeneral{
+        /*border: 1px solid red;*/
+        width: 100%;
+        height: 2800px;
+
+    }
+    #CG_Superior{
+        /* border: 1px solid black;*/
+        width: 100%;
+        height: 20%;
+
+    }
+    #CGS_Arriba{
+        /*border: 1px solid orangered;*/
+        width: 100%;
+        height: 120px;
+        z-index: 100;
+
+        background-image: url("../imagenes/fondo/header-back1.jpg");
+
+    }
+    #CGSA_Sup{
+        /* border: 1px solid yellow;*/
+        width: 85%;
+        height: 69%;
+        margin: auto;
+
+    }
+    #CGSAS_Logo{
+        /* border: 1px solid red;*/
+        width: 19%;
+        height: 100%;
+        float: left;
+    }
+    #CGSAS_Logo img{
+        width: 100%;
+        height: 100%;
+    }
+    #CGSAS_Sistema{
+        /*border: 1px solid red;*/
+        width: 79%;
+        height: 100%;
+        float: left;
+
+    }
+    
+    
+    #CGSA_Inf{
+        /*border: 1px solid blueviolet;*/
+        width: 85%;
+        height: 29%;
+        margin: auto;
+    }
+    #CGSAI_Menu{
+        /* border: 1px solid red;*/
+        width: 100%;
+        height: 100%;
+
+    }
+    #CGSAI_Menu nav {
+
+        /*   border: 1px solid yellow;*/
+        height: 100%;
+        width: 90%;
+
+
+    }
+    #CGSAI_Menu nav ul {
+
+        /*   border: 1px solid pink;*/
+        width: 94%;
+        list-style: none ;
+
+    }
+    #CGSAI_Menu nav ul li {
+        /*   border: 1px solid red;*/
+        float: left;
+        padding-left: 2%;
+    }
+    #CGSAI_Menu nav ul li a {
+
+        /*  border: 1px solid orange;*/
+        padding-left: -15px;
+        font-size: 15px;
+        line-height: 30px;
+        text-decoration: none;
+        color: white;
+
+    }
+    #CGSAI_Menu nav ul li a:hover {
+        /* color: hsl(202, 78%, 37%);*/
+        color: lightsteelblue;
+        padding-top: 5px;
+    }
+    #CGSAI_Menu nav ul li a img:hover{
+
+        opacity: 0.5;
+    }
+    #CGS_Abajo{
+        /* border: 1px solid blue;*/
+        width: 100%;
+        height: 64%;
+        padding-top: 150px;
+
+    }
+    .barra{
+        width: 100%;
+        height: 8px;
+        background: green;
+    }
+
+    #CG_Centro{
+        /* border: 1px solid green;*/
+        width: 80%;
+        height: 65%;
+        margin: auto;
+    }
+
+    #CG_Inferior{
+        /*border: 1px solid orange;*/
+        width: 100%;
+        height: 20%;
+        background: #2E2E2E;
+    }
+
+    .Acf90b0 { 
+        color:white; 
+        font-size:12px;
+    }
+    a:hover.Acf90b0 { 
+        color:white; text-decoration:none; 
+    }
+    a:visited.Acf90b0{ 
+        color:white; text-decoration:none; 
+    }
+}
+@media only screen and (min-width : 800px) and (max-width:1199px) {
+
+    #contenedorGeneral{
+        /*border: 1px solid red;*/
+        width: 100%;
+        height: 1900px;
+
+    }
+    #CG_Superior{
+        /* border: 1px solid black;*/
+        width: 100%;
+        height: 30%;
+
+    }
+    #CGS_Arriba{
+        /* border: 1px solid orangered;*/
+        width: 100%;
+        height: 120px;
+        z-index: 100;
+
+        background-image: url("../imagenes/fondo/header-back1.jpg");
+
+    }
+    #CGSA_Sup{
+        /* border: 1px solid yellow;*/
+        width: 85%;
+        height: 70%;
+        margin: auto;
+
+    }
+    #CGSAS_Logo{
+        /* border: 1px solid red;*/
+        width: 19%;
+        height: 100%;
+        float: left;
+    }
+    #CGSAS_Logo img{
+        width: 100%;
+        height: 100%;
+    }
+    #CGSAS_Sistema{
+        /* border: 1px solid red;*/
+        width: 79%;
+        height: 99%;
+        float: left;
+
+    }
+    #CGSA_Inf{
+        /*border: 1px solid blueviolet;*/
+        width: 85%;
+        height: 30%;
+        margin: auto;
+    }
+    #CGSAI_Menu{
+        /* border: 1px solid red;*/
+        width: 100%;
+        height: 100%;
+
+    }
+    #CGSAI_Menu nav {
+
+        /*   border: 1px solid yellow;*/
+        height: 100%;
+        width: 90%;
+
+
+    }
+    #CGSAI_Menu nav ul {
+
+        /*   border: 1px solid pink;*/
+        width: 94%;
+        list-style: none ;
+
+    }
+    #CGSAI_Menu nav ul li {
+        /*   border: 1px solid red;*/
+        float: left;
+        padding-left: 2%;
+    }
+    #CGSAI_Menu nav ul li a {
+
+        /*  border: 1px solid orange;*/
+        padding-left: -15px;
+        font-size: 20px;
+        line-height: 30px;
+        text-decoration: none;
+        color: white;
+
+    }
+    #CGSAI_Menu nav ul li a img:hover{
+
+        opacity: 0.5;
+    }
+    #CGSAI_Menu nav ul li a:hover {
+        /* color: hsl(202, 78%, 37%);*/
+        color: lightsteelblue;
+        padding-top: 5px;
+    }
+    #CGS_Abajo{
+        /* border: 1px solid blue;*/
+        width: 100%;
+        height: 64%;
+        padding-top: 180px;
+
+    }
+    .barra{
+        width: 100%;
+        height: 8px;
+        background: green;
+    }
+
+    #CG_Centro{
+        /*border: 1px solid green;*/
+        width: 85%;
+        height: 45%;
+        margin: auto;
+    }
+
+    #CG_Inferior{
+        /*  border: 1px solid orange;*/
+        width: 99%;
+        height: 24%;
+        background: #2E2E2E;
+    }
+
+    .Acf90b0 { 
+        color:white; 
+        font-size:12px;
+    }
+    a:hover.Acf90b0 { 
+        color:white; text-decoration:none; 
+    }
+    a:visited.Acf90b0{ 
+        color:white; text-decoration:none; 
+    }
+}
+
+
+@media only screen and (min-width : 1200px) { 
+    #contenedorGeneral{
+        width: 100%;
+        height: 1000px;
+    }
+    #CG_Superior{
+        width: 100%;
+        height: 13%;
+    }
+    #CGS_Arriba{
+        width: 100%;
+        height: 120px;
+        z-index: 100;
+        background-image: url("../imagenes/fondo/header-back1.jpg");
+    }
+    #CGSA_Sup{
+        width: 80%;
+        height: 70%;
+        margin: auto;
+    }
+    #CGSAS_Logo{
+        width: 50%;
+        height: 100%;
+        float: left;
+    }
+    #CGSAS_Logo img{
+        width: 90%;
+        height: 90%;
+    }    
+    #CGSAS_Sistema{
+        width: 48%;
+        height: 50%;
+        float: left;
+    }
+    #CGSAI_usuario{
+        float: right;
+        margin-top: 25px;
+        width: 100%;
+        height: 50%;
+    }
+    #CGSAI_usuario nav {
+        height: 100%;
+        width: 100%;
+        
+        float: right;
+    }
+    #CGSAI_usuario nav ul {
+        width: 100%;
+        list-style: none ;
+    }
+    #CGSAI_usuario nav ul li {
+        float: right;
+        padding-left: 2%; 
+        color: white;
+        font-size: 18px;
+    }
+    #CGSAI_usuario nav ul li a {
+        padding-left: -15px;
+        font-size: 20px;
+        line-height: 30px;
+        text-decoration: none;
+        color: white;
+    }
+    #CGSAI_usuario nav ul li a img:hover{
+        opacity: 0.5;
+    }
+    #CGSAI_usuario nav ul li a:hover {
+        color: lightsteelblue;
+        padding-top: 5px;
+    }
+    
+    
+    #CGSA_Inf{
+        width: 80%;
+        height: 29%;
+        margin: auto;
+    }
+    #CGSAI_Menu{
+        width: 100%;
+        height: 100%;
+    }
+    #CGSAI_Menu nav {
+        height: 100%;
+        width: 90%;
+    }
+    #CGSAI_Menu nav ul {
+        width: 94%;
+        list-style: none ;
+    }
+    #CGSAI_Menu nav ul li {
+        float: left;
+        padding-left: 2%;
+    }
+    #CGSAI_Menu nav ul li a {
+        padding-left: -15px;
+        font-size: 20px;
+        line-height: 30px;
+        text-decoration: none;
+        color: white;
+    }
+    #CGSAI_Menu nav ul li a img:hover{
+        opacity: 0.5;
+    }
+    #CGSAI_Menu nav ul li a:hover {
+        color: lightsteelblue;
+        padding-top: 5px;
+    }
+    .barra{
+        width: 100%;
+        height: 11px;
+        background: green;
+    }
+
+    #CG_Centro{
+        width: 80%;
+        height: 70%;
+        margin: auto;
+        background-color: lightcyan;
+    }
+    
+    #CGC_superior{
+        width: 100%;
+        height: 60px;
+        margin: auto;
+    }
+    #CGC_Izquierda{
+        width: 10%;
+    }
+    #CGC_centro{
+        width: 90%;
+        height: 70%;
+        margin: 0 auto;
+    }
+    .imagen_centro{
+        margin: 0 auto;
+    }
+
+    #CG_Inferior{
+        width: 100%;
+        height: 16%;
+        background: #2E2E2E;
+    }
+
+    .Acf90b0 { 
+        color:white; 
+        font-size:15px;
+    }
+    a:hover.Acf90b0 { 
+        color:white; text-decoration:none; 
+    }
+    a:visited.Acf90b0{ 
+        color:white; text-decoration:none; 
+    }
+}

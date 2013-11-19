@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts PUBLIC
+    "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+    "http://struts.apache.org/dtds/struts-2.0.dtd">
+    
+<struts>
+    <constant name="struts.devMode" value="true" />
+    <constant name="struts.configuration.xml.reload" value="true" />
+    <constant name="struts.custom.i18n.resources" value="struts-mensajes" />
+    <constant name="struts.multipart.maxSize" value="10485760" />
+    
+    <package name="default" namespace="/" extends="struts-default">
+        
+        <action name="index">
+            <result>/index.jsp</result>
+        </action>
+        
+        <action name="iu_login">
+            <result>/login.jsp</result>
+        </action>
+        
+                
+    </package>
+    
+    <include file="sisevp_sistema.xml"/>
+    <include file="sisevp_ingreso.xml"/>
+    <include file="sisevp_cobro.xml"/>
+    <include file="sisevp_control.xml"/>
+    <include file="sisevp_reporte.xml"/>    
+</struts>

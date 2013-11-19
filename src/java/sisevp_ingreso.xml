@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts PUBLIC
+    "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+    "http://struts.apache.org/dtds/struts-2.0.dtd">
+    
+<struts>
+    <package name="ingreso" namespace="/" extends="sistema">
+                        
+        <action name="registro_ingreso" class="com.sisevp.action.ingreso.IngresoAction">
+            <result name="success" >/ticket.jsp</result>
+        </action>
+        
+        <action name="registro_ingreso_acampante" class="com.sisevp.action.ingreso.IngresoAcampanteAction">
+            <result name="success">/registro_ingreso_acampante.jsp</result>
+        </action>
+        
+        <action name="imprimir_ticket" class="com.sisevp.action.ingreso.IngresoImpresionAction">
+            <result name="success" type="redirectAction">iu_registro_ingreso</result>
+        </action>
+        
+        <action name="iu_registro_ingreso" class="com.sisevp.action.ingreso.IURegistroIngresoAction">
+            <result name="success">/registro_ingreso.jsp</result>
+        </action>
+        
+        <action name="iu_registro_acampante" class="com.sisevp.action.ingreso.IURegistroAcampanteAction">
+            <result name="success">/registro_ingreso_acampante.jsp</result>
+        </action>
+    </package>
+</struts>
