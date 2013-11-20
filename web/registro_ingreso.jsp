@@ -73,7 +73,7 @@
                             <s:textfield maxLength="7" name="numero_placa" label="Numero de placa"/>
                             <s:select headerKey="1" label="Tipo de Cliente" name="tipo" list="{'normal','exonerado'}" />
                             <s:textfield readonly="true" name="hora_sistema" value="%{hora_actual}" label="Hora de Ingreso"/>
-                            <s:reset value="Registrar" />
+                            <s:submit value="Registrar" />
                             <s:reset value="Cancelar" />
                         </s:form>
                     </div>

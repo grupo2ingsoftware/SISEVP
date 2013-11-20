@@ -72,7 +72,7 @@
                             <s:textfield readonly="true" label="Numero de ticket" name="num_ticket" value="%{num_ticket}"/>
                             <s:textfield readonly="true" label="Numero de placa" name="numero_placa" value="%{numero_placa}"/>
                             <s:textfield readonly="true" label="Hora de Ingreso" name="hora_ingreso" value="%{hora_ingreso}"/>
-                            <s:reset value="IMPRIMIR" />
+                            <s:submit value="IMPRIMIR" />
                         </s:form>
                     </div>
                 </div>
