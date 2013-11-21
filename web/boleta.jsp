@@ -75,7 +75,7 @@
                             <s:textfield readonly="true" name="hora_ingreso" label="Hora de ingreso" value="%{hora_ingreso}" />
                             <s:textfield readonly="true" name="hora_salida" label="Hora de Salida" value="%{hora_salida}" />
                             <s:textfield readonly="true" name="monto" label="Monto Pagado" value="%{monto}" />
-                            <s:reset value="IMPRIMIR" />
+                            <s:submit value="IMPRIMIR" />
                         </s:form>
                     </div>
                 </div>

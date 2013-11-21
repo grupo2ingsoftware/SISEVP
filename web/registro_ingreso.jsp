@@ -49,7 +49,7 @@
                                 <ul>
                                     <li><s:a action="index"><img src="imagenes/pagina/home.png"  alt="" title="" width="30" height="25"/></s:a></li>
                                     <li ><s:a action="iu_registro_ingreso" >INGRESO</s:a></li>
-                                    <li><s:a action="iu_registro_acampante">ACAMPANTES</s:a></li>
+                                    <%--<li><s:a action="iu_registro_acampante">ACAMPANTES</s:a></li>--%>
                                 </ul>
                             </nav>
                         </div>
@@ -73,8 +73,9 @@
                             <s:textfield maxLength="7" name="numero_placa" label="Numero de placa"/>
                             <s:select headerKey="1" label="Tipo de Cliente" name="tipo" list="{'normal','exonerado'}" />
                             <s:textfield readonly="true" name="hora_sistema" value="%{hora_actual}" label="Hora de Ingreso"/>
-                            <s:submit value="Registrar" />
-                            <s:reset value="Cancelar" />
+                                <s:submit value="Registrar" />
+                                <s:reset  value="Cancelar" />                            
+                            
                         </s:form>
                     </div>
                 </div>

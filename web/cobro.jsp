@@ -75,8 +75,8 @@
                             <s:textfield readonly="true" name="hora_salida" value="%{hora_salida}" label="HORA DE SALIDA"/>
                             <s:textfield readonly="true" name="tiempo_estancia" value="%{tiempo_estancia}" label="TIEMPO DE ESTANCIA"/>
                             <s:textfield readonly="true" name="monto" value="%{monto}" label="MONTO"/>
-                            <s:reset name="registrar_cobro" value="REGISTRAR COBRO" />
-                            <s:reset name="registrar_ingreso" value="Registrar Infractor" />
+                            <s:submit name="registrar_cobro" value="REGISTRAR COBRO" />
+                            <s:submit name="registrar_ingreso" value="Registrar Infractor" />
                         </s:form>
                     </div>         
 

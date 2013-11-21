@@ -70,7 +70,7 @@
                             <label  style="margin: 0 auto;color: blue;display: block; margin: .5em 0 0 0; font-size: large; font-family: sans-serif;">BUSQUEDA DE VEHICULO</label>
                             <s:select headerKey="1" label="Tipo" name="tipo" list="{'ticket','Num_Placa'}" />
                             <s:textfield  name="entrada" />
-                            <s:reset value="Buscar" />
+                            <s:submit value="Buscar" />
                         </s:form>
                     </div>
                 </div>

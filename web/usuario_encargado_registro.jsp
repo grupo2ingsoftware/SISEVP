@@ -48,7 +48,7 @@
                                 <ul>
                                     <li><s:a action="index"><img src="imagenes/pagina/home.png"  alt="" title="" width="30" height="25"/></s:a></li>
                                     <li><s:a action="iu_registro_ingreso">INGRESO</s:a></li>
-                                    <li><s:a action="iu_registro_acampante">ACAMPANTES</s:a></li>
+                                    <%--<li><s:a action="iu_registro_acampante">ACAMPANTES</s:a></li>--%>
                                 </ul>
                             </nav>
                         </div>

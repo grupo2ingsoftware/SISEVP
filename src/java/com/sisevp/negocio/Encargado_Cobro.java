@@ -24,7 +24,7 @@ public class Encargado_Cobro extends Usuario {
         try {
             Class.forName("com.mysql.jdbc.Driver");
             String BasedeDatos = "jdbc:mysql://localhost/sisevp";
-            Connection Conexion = DriverManager.getConnection(BasedeDatos, "root", "");
+            Connection Conexion = DriverManager.getConnection(BasedeDatos, "root", "root");
             Statement SentenciaSQL = Conexion.createStatement();
 
             ResultSet consulta = SentenciaSQL.executeQuery("SELECT id_registro FROM registro where num_placa='" + registro.getVehiculo().getN_placa() + "'");
