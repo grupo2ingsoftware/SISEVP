@@ -38,10 +38,10 @@
                             <nav>
                                 <ul>
                                     <li><s:a action="index"><img src="imagenes/pagina/home.png"  alt="" title="" width="30" height="25"/></s:a></li>
-                                    <li><a href="./paginas/munilurin.jsp">MuniLurin</a></li>
-                                    <li><a href="./paginas/mision.jsp">Mision</a></li>
-                                    <li><a href="./paginas/vision.jsp">Vision</a></li>
-                                    <li><a href="./paginas/conocer.jsp">Saber más</a></li>
+                                    <li><a href="http://www.munilurin.gob.pe/municipalidad/">MuniLurin</a></li>
+                                    <li><a href="http://www.peru.gob.pe/docs/PLANES/10066/PLAN_10066_POI_-_PLAN_OPERATIVO_INSTITUCIONAL_2012_2012.pdf">Mision</a></li>
+                                    <li><a href="http://www.peru.gob.pe/docs/PLANES/10066/PLAN_10066_POI_-_PLAN_OPERATIVO_INSTITUCIONAL_2012_2012.pdf">Vision</a></li>
+                                    <li><a href="http://www.munilurin.gob.pe/turismo/">Saber más</a></li>
                                 </ul>
                             </nav>
                         </div>
